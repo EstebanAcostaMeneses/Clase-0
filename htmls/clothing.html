@@ -8,132 +8,247 @@
     <link rel="stylesheet" href="./../Css/style.css">
     <script src="https://kit.fontawesome.com/d784da5bf0.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <div class="container">
-              <div class="navbar"> 
-                <a href="./../index.html" class="logos"><img class="logo" src="./../assets/bookie_@2x copia 3@3x.png" alt="logo"></a>
-                  
-                
-                  <nav>
-              
-                    <ul>
-                      
-                        <li><a href="./../htmls/new.html">New</a></li>
-                        <li><a href="./../htmls/clothing.html">Clothing</a></li>
-                        <li><a href="./../htmls/shoes.html">Shoes</a></li>
-                        <li><a href="./../htmls/accesories.html">Accesorios</a></li>
+    <nav class="navbar navbar-expand-sm navbarColor">
+        <div class="container-fluid navbarColor">
+            <a class="navbar-brand" href="./../index.html">
+                <img src="./../assets/bookie_@2x copia 3@3x.png" alt="" width="200">
+            </a>
     
-                          <div id="buscar">
-                            <input type="text" placeholder="Search" required>
-                            <div class="btn"><i class="fa-solid fa-magnifying-glass icon"></i></div>
-                          </div>
-                     
-                        <li><a href="./../htmls/whictlist.html"><i class="fa-solid fa-heart"></i></a></li>
-                        <li><a href="./../htmls/carrito.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                        <li><a href="./../htmls/login.html"><i class="fa-solid fa-book"></i></a></li>
-                      
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+            
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  p-3">
                 
-                    </ul>
-                
-                   
+                    <li class="nav-item "><a class="nav-link" href="./../htmls/new.html">New</a></li>
+                    <li class="nav-item "><a class="nav-link" href="./../htmls/clothing.html">Clothing</a></li>
+                    <li class="nav-item "><a class="nav-link" href="./../htmls/shoes.html">Shoes</a></li>
+                    <li class="nav-item "><a class="nav-link" href="./../htmls/accesories.html">Accesorios</a></li>
                     
-              
-                  </nav>
+                </ul>
     
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 ml-auto" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
                   
-              </div> 
-          </div>
-          
-          
-      </header>
-    <main class="main">
-      <div class="cards">
+                <ul class="navbar-nav  p-3">
+                    
+                    <li class="nav-item "><a class="nav-link" href="./../htmls/whictlist.html"><i  id="figuras" class="fa-solid fa-heart"></i></a></li>
+                    <li class="nav-item "><a class="nav-link" href="./../htmls/carrito.html"><i id="figuras" class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li class="nav-item "><a class="nav-link" href="./../htmls/login.html"><i id="figuras" class="fa-solid fa-book"></i></a></li>
+                </ul>
+    
+                
+                        
+                   
+            </div>
+    
+    
+        </div>
+            
+    </nav>
+    <div id="clothing">
+        <div class="container-sm p-5">
+            <div class="row pt-5">
+                <h3 class="text-center pb-5 pt-5 h1">Accesories</h3>
 
-        <div class="cards2">
-            <div class="card1">
-                <img src="./../assets/pexels-zen-chung-5748798.jpg">
-                <h4>Nombre</h4>
-                <p>Precio</p>
             </div>
-    
-            <div class="card1">
-                <img src="./../assets/pexels-zen-chung-5748798.jpg">
-                <h4>Nombre</h4>
-                <p>Precio</p>
+
+        <div class="row">
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5 ">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Camisa</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
             </div>
-    
-            <div class="card1">
-                <img src="./../assets/pexels-zen-chung-5748798.jpg">
-                <h4>Nombre</h4>
-                <p>Precio</p>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Polera</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
             </div>
-    
-            <div class="card1">
-                <img src="./../assets/pexels-zen-chung-5748798.jpg">
-                <h4>Nombre</h4>
-                <p>Precio</p>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Chaqueta</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
             </div>
-    
-            <div class="card1">
-                <img src="./../assets/pexels-zen-chung-5748798.jpg">
-                <h4>Nombre</h4>
-                <p>Precio</p>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Poleron</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
             </div>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Zapattillas</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
+            </div>
+
+
         </div>
 
-        <div class="cards2">
-            <div class="card1">
-                <img src="./../assets/pexels-zen-chung-5748798.jpg">
-                <h4>Nombre</h4>
-                <p>Precio</p>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5 ">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Camisa</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
             </div>
-    
-            <div class="card1">
-                <img src="./../assets/pexels-zen-chung-5748798.jpg">
-                <h4>Nombre</h4>
-                <p>Precio</p>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Polera</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
             </div>
-    
-            <div class="card1">
-                <img src="./../assets/pexels-zen-chung-5748798.jpg">
-                <h4>Nombre</h4>
-                <p>Precio</p>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Chaqueta</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
             </div>
-    
-            <div class="card1">
-                <img src="./../assets/pexels-zen-chung-5748798.jpg">
-                <h4>Nombre</h4>
-                <p>Precio</p>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Poleron</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
             </div>
-    
-            <div class="card1">
-                <img src="./../assets/pexels-zen-chung-5748798.jpg">
-                <h4>Nombre</h4>
-                <p>Precio</p>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Zapattillas</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
             </div>
+
+
         </div>
 
-      </div>
-        
+        <div class="row">
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5 ">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Camisa</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Polera</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Chaqueta</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Poleron</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="./../assets/pexels-cottonbro-6626903.jpg" class="card-img-top" alt="...">
+                    <div class="card-body imagen-card">
+                      <h5 class="card-title">Zapattillas</h5>
+                      <p class="card-text">Precio</p>
+                    </div>
+                  </div>
+            </div>
 
 
-    </main>
-
-    <footer class="footer">
-      <div class="grids">
-        
-          <a  class="grid1"href="./../htmls/nosotros.html">Sobre nosotros</a>
-          <a  class="grid2"href="./../htmls/contacto.html">Contacto</a></li>
-          <a  class="grid3"href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-          <a  class="grid4"href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-          <a  class="grid5"href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+            
        
-      </div>
-    </footer>
-    
+    </div>
+
+    <div id="footer" class="p-5">
+
+        <div class="container-fluid w-20">
+            <div class="row">
+                
+                    <ul class="navbar-nav p-5" >
+                        <div class="col-sm ">
+                            <li class="footerLista nav-item"><a class="nav-link "href="./../htmls/nosotros.html">Sobre nosotros</a></li>
+                            
+                        </div>
+                        <div class="col-sm ">
+                            <li class="footerLista nav-item"><a class="nav-link "href="./../htmls/contacto.html">Contacto</a></li></li>
+                            
+                        </div>
+                        <div class="col-sm ">
+                            <li class="footerLista nav-item"><a class="nav-link "href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                            
+                                
+                        </div>
+                        <div class="col-sm ">
+                            <li class="footerLista nav-item"><a class="nav-link "href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                            
+                               
+                        </div>
+                        <div class="col-sm ">
+                            <li class="footerLista nav-item"><a class="nav-link "href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                            
+            
+                        </div>
+                        
+                    </ul>
+                 
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
