@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/* navbar*/
+.navbarColor{
+    background-color: #fec5bb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+#navbarSupportedContent{
+    justify-content: center;
+}
+#figuras{
+    font-size: 30px;
+    padding-right: 15px;
+}
+.iconos-figuras{
+    justify-content: right;
+}
+/* cards*/
+.card-border{
+    border:solid 20px white ;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all ease-out 0-2s;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+/* footer */
+#footer{
+    background: black;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+
+}
+/* index html */
+#index{
+    background-color: #f8edeb;
+    text-align: center;
+}
+.imagen-card{
+    background-color: #f5f3f4;
+}
+
+
+/* accesorios.html */
+
+#accesorios{
+    text-align: center;
+    background-color: #f8edeb;
+}
+/*shoes */
+#shoes{
+    text-align: center;
+    background-color: #f8edeb;
+}
+/*new*/
+#new{
+    text-align: center;
+    background-color: #f8edeb;
+}
+/*clothing*/
+#clothing{
+    text-align: center;
+    background-color: #f8edeb;
+}
+
+.imgCarrousel{
+    height: 550px;
+    object-fit: contain;
+    background-color: #cdb4db;
+}
+/*newsletter*/
+
+#inputForm{
+    align-content: center;
+    text-align: center;
+   
+}
+
+.newsletter-color{
+    background-color: #cdb4db;
+    
+}
