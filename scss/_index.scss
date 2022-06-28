@@ -6,11 +6,7 @@
 }
 
 /* navbar*/
-.navbarColor{
-    background-color: #fec5bb;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
+
 #navbarSupportedContent{
     justify-content: center;
 }
@@ -31,22 +27,18 @@
         transform: scale(1.05);
     }
 }
-
-/* footer */
-#footer{
-    background: black;
-    text-align: center;
-    font-size: 30px;
-    color: white;
-
+.navbarColor{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 /* index html */
 #index{
     background-color: #f8edeb;
     text-align: center;
-}
-.imagen-card{
-    background-color: #f5f3f4;
+    
+    .imagen-card{
+        background-color: #f5f3f4;
+    }   
 }
 
 
@@ -85,7 +77,7 @@
    
 }
 
-.newsletter-color{
-    background-color: #cdb4db;
-    
+#footer{
+    text-align: center;
+    font-size: 30px;
 }

@@ -1,0 +1,20 @@
+$color_footer:rgb(4, 4, 4);
+$color_nav:#fec5bb;
+$color_text_footer:white;
+$color_news:#cdb4db;
+
+.navbarColor{
+    background-color: $color_nav;
+   
+}
+
+#footer{
+    background: $color_footer;
+    color:$color_text_footer;
+
+}
+
+.newsletter-color{
+    background-color: $color_news;
+    
+}
