@@ -1,3 +1,35 @@
+.navbarColor {
+  background-color: #fec5bb;
+}
+
+#footer {
+  background: rgb(4, 4, 4);
+  color: white;
+}
+
+.newsletter-color {
+  background-color: #cdb4db;
+}
+
+/* mixin, maps, extend */
+.colorRedesface {
+  color: #0257c5;
+}
+
+.colorRedestwitter {
+  color: #00dbde;
+}
+
+.colorRedesinsta {
+  color: #ffffff;
+}
+
+.fondoInsta {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  padding: 2px;
+  border-radius: 25%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -12,6 +44,14 @@
 #figuras {
   font-size: 30px;
   padding-right: 15px;
+}
+
+.icono1, .icono2, .icono3 {
+  color: #f171f8;
+}
+
+.icono1, .icono2, .icono3 {
+  width: 35px;
 }
 
 .iconos-figuras {
@@ -82,19 +122,6 @@
 #footer {
   text-align: center;
   font-size: 30px;
-}
-
-.navbarColor {
-  background-color: #fec5bb;
-}
-
-#footer {
-  background: rgb(4, 4, 4);
-  color: white;
-}
-
-.newsletter-color {
-  background-color: #cdb4db;
 }
 
 /*# sourceMappingURL=main.css.map */

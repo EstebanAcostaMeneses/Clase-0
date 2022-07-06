@@ -1,7 +1,21 @@
+
 $color_footer:rgb(4, 4, 4);
 $color_nav:#fec5bb;
 $color_text_footer:white;
 $color_news:#cdb4db;
+
+$coloresRedes:(
+    face:#0257c5,
+    twitter:#00dbde,
+    insta: #ffffff,
+
+
+);
+$instagran:(
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d),
+    padding: 2px,
+    border-radius: 25%
+);
 
 .navbarColor{
     background-color: $color_nav;
@@ -17,4 +31,22 @@ $color_news:#cdb4db;
 .newsletter-color{
     background-color: $color_news;
     
+}
+
+/* mixin, maps, extend */
+
+@each $verde, $colores in $coloresRedes  {
+    .colorRedes#{$verde}{
+        color:$colores;
+    }
+}
+
+.fondoInsta{
+    background:map-get($instagran , background);
+    padding: map-get($instagran,padding );
+    border-radius: map-get($instagran , border-radius);
+}
+
+@mixin iconosGrandes($width) {
+    width: $width;
 }
