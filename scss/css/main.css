@@ -1,0 +1,127 @@
+.navbarColor {
+  background-color: #fec5bb;
+}
+
+#footer {
+  background: rgb(4, 4, 4);
+  color: white;
+}
+
+.newsletter-color {
+  background-color: #cdb4db;
+}
+
+/* mixin, maps, extend */
+.colorRedesface {
+  color: #0257c5;
+}
+
+.colorRedestwitter {
+  color: #00dbde;
+}
+
+.colorRedesinsta {
+  color: #ffffff;
+}
+
+.fondoInsta {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  padding: 2px;
+  border-radius: 25%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* navbar*/
+#navbarSupportedContent {
+  justify-content: center;
+}
+
+#figuras {
+  font-size: 30px;
+  padding-right: 15px;
+}
+
+.icono1, .icono2, .icono3 {
+  color: #f171f8;
+}
+
+.icono1, .icono2, .icono3 {
+  width: 35px;
+}
+
+.iconos-figuras {
+  justify-content: right;
+}
+
+/* cards*/
+.card-border {
+  border: solid 20px white;
+  border-radius: 40px;
+  overflow: hidden;
+  transition: all ease-out -2s;
+}
+.card-border:hover {
+  transform: scale(1.05);
+}
+
+.navbarColor {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+/* index html */
+#index {
+  background-color: #f8edeb;
+  text-align: center;
+}
+#index .imagen-card {
+  background-color: #f5f3f4;
+}
+
+.imgCarrousel {
+  height: 550px;
+  object-fit: contain;
+  background-color: #cdb4db;
+}
+
+/*newsletter*/
+#inputForm {
+  align-content: center;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* accesorios.html */
+#accesorios {
+  text-align: center;
+  background-color: #f8edeb;
+}
+
+/*clothing*/
+#clothing {
+  text-align: center;
+  background-color: #f8edeb;
+}
+
+/*shoes */
+#shoes {
+  text-align: center;
+  background-color: #f8edeb;
+}
+
+/*new*/
+#new {
+  text-align: center;
+  background-color: #f8edeb;
+}
+
+/*# sourceMappingURL=main.css.map */
