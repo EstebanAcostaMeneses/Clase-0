@@ -1,0 +1,15 @@
+.caja{
+    display: flex;
+    background-color: rgb(242, 241, 240);
+}
+.caja > div{
+    width: 50%;
+    padding: 10px;
+}
+.imgNosotros{
+    width: 100%;
+    height: 100%;
+}
+.textNosotros{
+    text-align: center;
+}

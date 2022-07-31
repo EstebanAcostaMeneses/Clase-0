@@ -8,6 +8,7 @@
     <meta name="keywords" content="Ropa,Ocio,zapatillas,moda,ofertas,regalos">
     <title>Mikka Shop</title>
     <link rel="stylesheet" href="./css/main.css"> 
+    <link rel="icon" href="./assets/bookie_@2x copia 3@3x.png">
     <script src="https://kit.fontawesome.com/d784da5bf0.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,16 +24,12 @@
         <a class="navbar-brand" href="index.html">
             <img src="./assets/bookie_@2x copia 3@3x.png" alt="" width="200">
         </a>
-
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
-        
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >  
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  p-3">
-            
+        <div class="collapse navbar-collapse colorNav" id="navbarSupportedContent">
+            <ul class="navbar-nav  p-3 ">  
                 <li class="nav-item ">
                   <a class="nav-link" href="./htmls/new.html">New</a>
                 </li>
@@ -44,69 +41,50 @@
                 </li>
                 <li class="nav-item ">
                   <a class="nav-link" href="./htmls/accesories.html">Accesorios</a>
-                </li>
-                
+                </li>          
             </ul>
-
-            <form class="d-flex" role="search">
-                <input class="form-control me-2 ml-auto" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn  searchNav" type="submit">Search</button>
-              </form>
-              
-            <ul class="navbar-nav  p-3">
-                
+            <div class="buscar">
+              <input type="text" placeholder="Buscar" required />
+        
+              <div class="btnBotton">
+                <i class="fas fa-search icon"></i>
+              </div>
+            </div>           
+            <ul class="navbar-nav  p-3">                
                 <li class="nav-item ">
-                  <a class="nav-link" href="./htmls/whictlist.html">
+                  <a class="nav-link" href="#">
                     <i id="figuras" class="fa-solid fa-heart icono1"></i>
                   </a>
                 </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="./htmls/carrito.html">
-                    <i id="figuras" class="fa-solid fa-cart-shopping icono2"></i>
-                  </a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="./htmls/login.html">
-                    <i id="figuras" class="fa-solid fa-book icono3"></i>
-                  </a>
-                </li>
-            </ul>
-
-            
-                    
-               
+            </ul>     
+                                                     
         </div>
-
-
-    </div>
-        
+    </div>        
 </nav>
-
 <div id="index">
     <div class="container-sm p-5">
-
             <div class="row pt-5">
-                <h3 class="text-center pb-5 pt-5 h1">Sales off</h3>
-
+                <div class="col-sm p-5 ">              
+                  <img class="imgInd" src="https://bellisimabeachwear.com/modules/ps_imageslider/images/1c48faea5f75fabc481d1eb923b466f54692d149_BELLISIMA%20BANNER%20MARCAS%20ENE%202022%20ESCRITORIO.jpg" alt="Clothing">
+                </div>                
             </div>
-
         <div class="row">
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item mb-5 active">
-                <img src="./assets/pexels-arthur-ogleznev-1102777.jpg" class="d-block w-100 imgCarrousel" alt="..." >
+                <img src="./assets/accesories/aceso10.jpg" class="d-block w-100 imgCarrousel" alt="..." >
               </div>
               <div class="carousel-item">
-                <img src="./assets/pexels-valeriia-miller-3680210.jpg" class="d-block w-100 imgCarrousel" alt="...">
+                <img src="./assets/clothing/ropa1.jpg" class="d-block w-100 imgCarrousel" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./assets/pexels-cottonbro-5730956.jpg" class="d-block w-100 imgCarrousel" alt="...">
+                <img src="./assets/shoes/zapatilla10.jpg" class="d-block w-100 imgCarrousel" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./assets/pexels-cottonbro-6626903.jpg" class="d-block w-100 imgCarrousel" alt="...">
+                <img src="./assets/accesories/aceso11.jpg" class="d-block w-100 imgCarrousel" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./assets/pexels-daria-shevtsova-1030942.jpg" class="d-block w-100 imgCarrousel" alt="...">
+                <img src="./assets/clothing/ropa11.jpg" class="d-block w-100 imgCarrousel" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -118,14 +96,11 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-
         </div>
-
         <div class="row pt-5" id="clases-3">
-
             <div class="col-sm">
                 <div class="card w-100 card-border mb-5">
-                    <img src="assets/pexels-zen-chung-5748798.jpg" class="card-img-top" alt="..."height="450px">
+                    <img src="./assets/shoes/zapatilla6.jpg" class="card-img-top" alt="..."height="450px">
                     <div class="card-body imagen-card">
                       <h5 class="card-title">Shoes</h5>
                     </div> 
@@ -133,7 +108,7 @@
             </div>
             <div class="col-sm">
                 <div class="card w-100 card-border mb-5">
-                    <img src="assets/pexels-zen-chung-5748798.jpg" class="card-img-top" alt="..." height="450px">
+                    <img src="./assets/clothing/ropa13.jpg" class="card-img-top" alt="..." height="450px">
                     <div class="card-body imagen-card">
                       <h5 class="card-title">Clothing</h5>
                     </div>
@@ -141,139 +116,104 @@
             </div>
             <div class="col-sm">
                 <div class="card w-100 card-border mb-5">
-                    <img src="assets/pexels-zen-chung-5748798.jpg" class="card-img-top" alt="..."height="450px">
+                    <img src="./assets/accesories/aceso12.jpg" class="card-img-top" alt="..."height="450px">
                     <div class="card-body imagen-card">
                       <h5 class="card-title">Accesories</h5>
                     </div>
                   </div>
             </div>
-
-
         </div>
-
         <div class="row pt-2">
             <h3 class="text-center pb-3 pt-3 h1">New</h3>
-
         </div>
-
         <div class="row">
-
             <div class="col-sm">
-                <div class="card w-100 card-border mb-5">
-                    <img src="assets/pexels-zen-chung-5748798.jpg" class="card-img-top" alt="..." height="300px">
+                <div class="card w-100 card-border mb-5 ">
+                    <img src="./assets/accesories/aceso4.jpg" class="card-img-top" alt="..." height="300px">
                     <div class="card-body imagen-card">
-                      <h5 class="card-title">sale1</h5>
-                      <p class="card-text">Precio</p>
+                      <h5 class="card-title">Gucci</h5>
+                      <p class="card-text">$50</p>
                     </div>
                   </div>
             </div>
             <div class="col-sm">
                 <div class="card w-100 card-border mb-5">
-                    <img src="assets/pexels-zen-chung-5748798.jpg" class="card-img-top" alt="..." height="300px">
+                    <img src="./assets/clothing/ropa4.jpg" class="card-img-top" alt="..." height="300px">
                     <div class="card-body imagen-card">
-                      <h5 class="card-title">sale1</h5>
-                      <p class="card-text">Precio</p>
+                      <h5 class="card-title">Prada</h5>
+                      <p class="card-text">$45</p>
                     </div>
                   </div>
             </div>
             <div class="col-sm">
                 <div class="card w-100 card-border mb-5">
-                    <img src="assets/pexels-zen-chung-5748798.jpg" class="card-img-top" alt="..." height="300px">
+                    <img src="./assets/shoes/zapatilla9.jpg" class="card-img-top" alt="..." height="300px">
                     <div class="card-body imagen-card">
-                      <h5 class="card-title">sale1</h5>
-                      <p class="card-text">Precio</p>
+                      <h5 class="card-title">Valentino</h5>
+                      <p class="card-text">$60</p>
                     </div>
                   </div>
             </div>
             <div class="col-sm">
                 <div class="card w-100 card-border mb-5">
-                    <img src="assets/pexels-zen-chung-5748798.jpg" class="card-img-top" alt="..." height="300px">
+                    <img src="./assets/clothing/ropa2.jpg" class="card-img-top" alt="..." height="300px">
                     <div class="card-body imagen-card">
-                      <h5 class="card-title">sale1</h5>
-                      <p class="card-text">Precio</p>
+                      <h5 class="card-title">LaCoste</h5>
+                      <p class="card-text">$35</p>
                     </div>
                   </div>
             </div>
             <div class="col-sm">
                 <div class="card w-100 card-border mb-5">
-                    <img src="assets/pexels-zen-chung-5748798.jpg" class="card-img-top" alt="..." height="300px">
+                    <img src="./assets/shoes/zapatillas11.jpg" class="card-img-top" alt="..." height="300px">
                     <div class="card-body imagen-card">
-                      <h5 class="card-title">sale1</h5>
-                      <p class="card-text">Precio</p>
+                      <h5 class="card-title">Versage</h5>
+                      <p class="card-text">$36</p>
                     </div>
                   </div>
             </div>
-
-        </div>
-
-                
-        
-
+        </div>                        
     </div>
     <div class=" newsletter-color">
       <div class="col-sm p-5 text-center">
         <label for="exampleFormControlInput1" class="form-label  h1">Newsletter</label>
         <input type="email" class="form-control" id="inputForm" placeholder="name@example.com">
-      </div>
-    
-    </div>
-          
-</div>
-
-   
-
+      </div>    
+    </div>         
+</div>  
 <div id="footer" class="p-5">
-
     <div class="container-fluid w-20">
-        <div class="row">
-            
+        <div class="row">          
                 <ul class="navbar-nav p-5" >
                     <div class="col-sm ">
                         <li class="footerLista nav-item">
                           <a class="nav-link "href="./../htmls/nosotros.html">Sobre nosotros</a>
-                        </li>
-                        
-                    </div>
-                    <div class="col-sm ">
-                        <li class="footerLista nav-item">
-                          <a class="nav-link "href="./../htmls/contacto.html">Contacto</a>
-                        </li>
-                        
+                        </li>                       
                     </div>
                     <div class="col-sm ">
                         <li class="footerLista nav-item">
                           <a class="nav-link "href="https://www.instagram.com" target="_blank">
                             <i class="fa-brands fa-instagram fondoInsta colorRedesinsta "></i>
                           </a>
-                        </li>
-                        
-                            
+                        </li>                                                   
                     </div>
                     <div class="col-sm ">
                         <li class="footerLista nav-item">
                           <a class="nav-link "href="https://twitter.com/" target="_blank">
                             <i class="fa-brands fa-twitter colorRedestwitter"></i>
                           </a>
-                        </li>
-                        
-                           
+                        </li>                                                  
                     </div>
                     <div class="col-sm ">
                         <li class="footerLista nav-item">
                           <a class="nav-link "href="https://www.facebook.com/" target="_blank">
                             <i class="fa-brands fa-facebook colorRedesface"></i>
                           </a>
-                        </li>
-                        
-        
-                    </div>
-                    
-                </ul>
-             
+                        </li>                                
+                    </div>                   
+                </ul>            
         </div>
-    </div>
-
-    
+    </div>   
 </div>
       
 

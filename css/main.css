@@ -1,5 +1,5 @@
 .navbarColor {
-  background-color: #fec5bb;
+  background-color: #99582a;
 }
 
 #footer {
@@ -37,6 +37,10 @@
 }
 
 /* navbar*/
+.colorNav {
+  color: #f5f3f4;
+}
+
 #navbarSupportedContent {
   justify-content: center;
 }
@@ -47,7 +51,7 @@
 }
 
 .icono1, .icono2, .icono3 {
-  color: #f171f8;
+  color: #f80808;
 }
 
 .icono1, .icono2, .icono3 {
@@ -58,6 +62,17 @@
   justify-content: right;
 }
 
+.imgInd {
+  object-fit: contain;
+  height: 100%;
+  width: 80%;
+}
+
+@media only screen and (max-width: 880px) {
+  .imgInd {
+    display: none;
+  }
+}
 /* cards*/
 .card-border {
   border: solid 20px white;
@@ -72,6 +87,46 @@
 .navbarColor {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+}
+
+.buscar {
+  position: relative;
+  padding: 5px;
+}
+
+.buscar input {
+  width: 0;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: #222;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+  transition: all 0.6s ease;
+}
+
+.btnBotton {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background: #f05743;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.buscar:hover input {
+  width: 240px;
+}
+
+.buscar input:focus {
+  width: 240px;
 }
 
 /* index html */
@@ -106,22 +161,67 @@
   background-color: #f8edeb;
 }
 
+@media only screen and (max-width: 880px) {
+  .imgAcceso {
+    display: none;
+  }
+}
 /*clothing*/
 #clothing {
   text-align: center;
   background-color: #f8edeb;
 }
 
+.imgClot {
+  height: 100%;
+  width: 80%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 880px) {
+  .imgClot {
+    display: none;
+  }
+}
 /*shoes */
 #shoes {
   text-align: center;
   background-color: #f8edeb;
 }
 
+@media only screen and (max-width: 880px) {
+  .img-shoess {
+    display: none;
+  }
+}
 /*new*/
 #new {
   text-align: center;
   background-color: #f8edeb;
+}
+
+@media only screen and (max-width: 880px) {
+  .imgNew {
+    display: none;
+  }
+}
+.caja {
+  display: flex;
+  background-color: rgb(242, 241, 240);
+}
+
+.caja > div {
+  width: 50%;
+  padding: 10px;
+}
+
+.imgNosotros {
+  width: 100%;
+  height: 100%;
+}
+
+.textNosotros {
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

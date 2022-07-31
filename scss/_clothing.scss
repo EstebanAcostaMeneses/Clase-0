@@ -3,3 +3,15 @@
     text-align: center;
     background-color: #f8edeb;
 }
+
+.imgClot{
+    height: 100%;
+    width: 80%;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 880px) {
+    .imgClot {
+      display: none;
+    }
+  }
